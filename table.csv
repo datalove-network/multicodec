@@ -437,8 +437,16 @@ bitcoin-tx,           Bitcoin Tx,                                       0xb1
 zcash-block,          Zcash Block,                                      0xc0
 zcash-tx,             Zcash Tx,                                         0xc1
 
-stellar-block,        Stellar Block,                                    0xd0
-stellar-tx,           Stellar Tx,                                       0xd1
+stellar-ledger,       Stellar Ledger Header,                            0xd0
+stellar-tx,           Stellar Transaction,                              0xd1
+stellar-tx-set,       Stellar Transaction Set,                          0xd2
+stellar-result,       Stellar Transaction Result,                       0xd3
+stellar-result-set,   Stellar Transaction Result Set,                   0xd4
+stellar-bucket-arcv,  Stellar Bucket Archive (Gzipped XDR)              0xd5
+stellar-ledger-arcv,  Stellar Ledger Archive (Gzipped XDR)              0xd6
+stellar-tx-arcv,      Stellar Transactions Archive (Gzipped XDR)        0xd7
+stellar-results-arcv, Stellar Results Archive (Gzipped XDR)             0xd8
+stellar-scp-arcv,     Stellar SCP Archive (Gzipped XDR)                 0xd9
 
 torrent-info,         Torrent file info field (bencoded),               0x7b
 torrent-file,         Torrent file (bencoded),                          0x7c
